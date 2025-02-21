@@ -5,8 +5,8 @@
 #include "env.h"
 
 // WiFi credentials
-const char WIFI_SSID[] = "BETAIL.NG";
-const char WIFI_PASSWORD[] = "BETAIL@2024";
+const char WIFI_SSID[] = "********8";
+const char WIFI_PASSWORD[] = "***********";
 
 // Device name from AWS
 const char THINGNAME[] = "ESP8266";
@@ -22,7 +22,7 @@ const char AWS_IOT_SUBSCRIBE_TOPIC[] = "esp8266/sub";
 const long interval = 5000;
 
 // Timezone offset from UTC
-const int8_t TIME_ZONE = -5;
+const int8_t TIME_ZONE = -1;
 
 // Last time message was sent
 unsigned long lastMillis = 0;
