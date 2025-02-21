@@ -9,10 +9,10 @@ const char WIFI_SSID[] = "********8";
 const char WIFI_PASSWORD[] = "***********";
 
 // Device name from AWS
-const char THINGNAME[] = "ESP8266";
+const char THINGNAME[] = "**********";
 
 // MQTT broker host address from AWS
-const char MQTT_HOST[] = "a7xw6fhd9yvy9-ats.iot.eu-west-1.amazonaws.com";
+const char MQTT_HOST[] = "************";
 
 // MQTT topics
 const char AWS_IOT_PUBLISH_TOPIC[] = "esp8266/pub";
